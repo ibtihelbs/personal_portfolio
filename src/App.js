@@ -52,6 +52,7 @@ function App() {
   const load = gsap.timeline({
     paused: "true",
   });
+  console.log(load)
   let loader = useRef(null)
   let progress = useRef(null)
   let percent = useRef(null)
