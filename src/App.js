@@ -97,7 +97,9 @@ function App() {
   return (
       <div className="App">
         <div className="noise"></div>
-          <div className="loader" ref={(el) => (loader = el)}>
+          
+      <BrowserRouter>
+      <div className="loader" ref={(el) => (loader = el)}>
             <div className="progress" ref={(el) => (progress = el)}>
               <div id="percent" ref={(el) => (percent = el)}>
                 1%
@@ -107,7 +109,6 @@ function App() {
               </div>
             </div>
           </div>
-      <BrowserRouter>
       <TopScroll/>
       <Navbar />
       <Routes>

@@ -12,8 +12,8 @@ const Home = () => {
         // var [scroll, setScroll] = useState();
         // useEffect(()=> {
 
-        //     document.getElementById("taimoor").style.transform = "translateX("+scroll+"px)";
-        //     document.getElementById("shahzada").style.transform = "translateX(-"+scroll+"px)";
+        //     document.getElementById("ibtihel").style.transform = "translateX("+scroll+"px)";
+        //     document.getElementById("bensalah").style.transform = "translateX(-"+scroll+"px)";
         //     document.getElementById("digital").style.transform = "translateX(-"+scroll+"px)";
         //     document.getElementById("designer").style.transform = "translateX("+scroll+"px)";
             
@@ -69,14 +69,14 @@ const Home = () => {
         
         <div className="container">
            <div className="container1">
-            <div className="txt-line"  id="taimoor">
+            <div className="txt-line"  id="ibtihel">
                 <p ref={el=>text1=el}>
-                    Taimoor
+                    Ibtihel
                 </p>
             </div>
-            <div className="txt-line line-bottom" id="shahzada">
+            <div className="txt-line line-bottom" id="bensalah">
                 <p ref={el=>text2=el}>
-                    Shahzada
+                    Ben Salah
                 </p>
             </div>
         </div>
