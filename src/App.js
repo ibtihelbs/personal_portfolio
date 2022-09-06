@@ -103,7 +103,7 @@ function App() {
                 1%
               </div>
               <div id="bar" ref={(el) => (bar = el)}>
-                <div id="barc" ref={(el) => (barc = el)}></div>
+                <div id="barc" ref={barc}></div>
               </div>
             </div>
           </div>
