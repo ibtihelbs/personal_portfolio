@@ -57,11 +57,12 @@ const Footer = () => {
                        <p>Tunisia</p>
                    </div>
                    <div className="right-footer-bottom">
-                       <p>2021. Ibtihel Ben Salah. ALL RIGHT RESERVED</p>
+                       <p>2022_ Ibtihel Ben Salah.</p>
                    </div>
                </div>
            </div>
            <div className="footer-ticker">
+           <div className="footer-ticker-">
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
@@ -82,6 +83,7 @@ const Footer = () => {
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
                <div className="footer-ticker-item">&nbsp; - Ibtihel Ben Salah </div>
+             </div>
            </div>
         </div>
   )

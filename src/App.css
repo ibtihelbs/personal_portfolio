@@ -31,8 +31,7 @@ ul{
   width: 70px;
   height: 70px;
   animation: animate-rotate 10s infinite linear;
-  z-index: 1;
-  user-select: none;
+  z-index: 3;
   opacity: .8;
   overflow: hidden;
   pointer-events: none;

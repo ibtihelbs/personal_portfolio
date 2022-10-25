@@ -76,6 +76,9 @@
 .about-container2-heading2 p{
     text-decoration: line-through 5px #806868;
 }
+.about-container2-p {
+    padding: 1rem;
+}
 .about-container2-p p{
     font-size: 18px;
     font-family: 'Inter';

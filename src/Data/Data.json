@@ -2,7 +2,6 @@
   {
     "title": "API: countries with theme switcher",
     "description": [
-  
     "See all countries from the API on the homepage",
     "Filter countries by region",
     "Click on a country to see more detailed information on a separate page",
@@ -19,7 +18,7 @@
     ],
     "src":"images/portfolio/3.png",
     "live":"https://ibtihelbs.github.io/rest_api_country/",
-    "code":"https://github.com/ibtihelbs/REst_api_country/",
+    "code":"https://reactapicountries.vercel.app/",
     "state":"done"
   },
     {

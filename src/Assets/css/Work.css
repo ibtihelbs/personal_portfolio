@@ -94,6 +94,7 @@
     border-top: 1px dashed black;
     border-bottom: 1px dashed black;
     padding: 10px 0px;
+    gap:.5rem;
 }
 .project-page-item-footer p{
     font-size: 12px;
@@ -109,8 +110,13 @@
 .technologies{
     display: block;
 }
-
-
+.buttons{
+    margin-top: 1rem;
+}
+.button{
+    padding: .1rem .2rem !important;
+    margin: .2rem;
+}
 
 @media (max-width: 900px) {
     .my-projects{
